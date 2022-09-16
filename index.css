@@ -1,0 +1,126 @@
+body{
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    z-index: -1;
+    position: relative;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+.top_container{
+    width: 100%;
+}
+.kob1{
+    width: 50%;
+    height: 26rem;
+}
+.pic1{
+    display: flex;
+    float: right;
+
+
+}
+.box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 1rem;
+}
+.photo_frame{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+}
+.jab{
+    padding-left: 1rem;
+}
+.form{
+    width: fit-content;
+    height: fit-content;
+    background-color:rgb(95, 94, 94) ;
+    border-radius: 10px;
+}
+
+.movie {
+    margin-top: 2rem;
+    border-radius: 10px;
+    width: 15rem;
+    border: 1px solid whitesmoke;
+    text-align: center;
+    /* box-shadow: 0px 0px 20px 0px rgba(237,219,219,0.75); */
+}
+.search_btn{
+    background-color: rgb(95, 94, 94);  
+    color: white;
+    width: 4rem;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius:  0 10px 10px 0  ;
+}
+input {
+    border-radius: 10px 0 0 10px;
+    color: white;
+    outline: none;
+    border: none;
+    width: 20rem;
+    height: 50px;
+    background-color: rgb(95, 94, 94);
+}
+input::placeholder{
+    color: white;
+}
+.top_container{
+    display: flex;
+    margin-top: 1rem;
+}
+.modal{
+    background-color: rgb(95, 94, 94) ;
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    width:76rem ;
+    height: 20rem;
+    top: 12rem;
+    padding: 1rem;
+}
+.vido{
+    width: 100%;
+}
+iframe{
+    width: 100%;
+    height:18rem ;
+    margin: 1rem;
+}
+.overview{
+    margin: 1rem;
+    padding: 1rem;
+
+}
+.close_btn{
+    height: 1.7rem;
+    width: 1.7rem;
+    border: none;
+}
+.close_btn:hover{
+    color: white;
+    background-color: red;   
+}
+h3{
+    height: 1.5rem;
+}
+.trailer_btn{
+    width: 100%;
+    border-radius: 0 0 10px 10px;
+    border: none;
+    outline: none;
+    height: 2rem;
+}
+.movie_img{
+    border-radius: 10px 10px 0 0;
+}
+footer{
+    margin-top: 20px;
+}
